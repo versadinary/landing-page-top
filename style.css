@@ -3,12 +3,14 @@
 * {
     margin: 0;
     padding: 0;
+    outline: 2px solid red;
 }
 
 body {
     font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 .header {
@@ -21,6 +23,7 @@ body {
 .logo {
     color: #f9faf8;
     font-size: 24px;
+    font-weight: 600;
 }
 
 .links,
@@ -31,7 +34,7 @@ body {
 ul {
     display: flex;
     list-style: none;
-    gap: 10px;
+    gap: 20px;
 }
 
 a {
@@ -40,6 +43,114 @@ a {
     color: #e5e7eb;
 }
 
+
 .content-one {
     background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 50px;
+}
+
+.c-one-left {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    padding: 15px;
+}
+
+.large-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.small-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.c-one-right {
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    padding: 15px;
+}
+
+.button-container {
+    padding-top: 10px;
+}
+
+.sign-up-1 {
+    padding: 8px 32px;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 7px;
+    color: #f9faf8;
+    font-weight: 600;
+}
+
+.content-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+}
+
+.c-two-header-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 800;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    /* background-color: red; */
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-container {
+    width: 120px;
+    height: 120px;
+    /* background-color: blue; */
+    border-radius: 10px;
+    border: solid 3px #3882f6;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.content-three {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 100px; */
+}
+
+.quote-container {
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-footer {
+
 }
