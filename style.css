@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
 }
 
 body {
@@ -139,10 +139,11 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 100px; */
+    padding: 50px;
 }
 
 .quote-container {
+
 }
 
 .quote {
