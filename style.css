@@ -255,4 +255,9 @@ img {
     .blue-card-container {
         padding: 10px;
     }
+
+    .c-one-right {
+        height: 25vh;
+        width: 50vw;
+    }
 }
