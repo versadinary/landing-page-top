@@ -11,6 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    flex: 1;
 }
 
 .header {
@@ -42,7 +43,6 @@ a {
     font-size: 18px;
     color: #e5e7eb;
 }
-
 
 .content-one {
     background-color: #1f2937;
@@ -98,6 +98,8 @@ a {
     align-items: center;
     padding: 30px;
     gap: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
 .c-two-header-text {
@@ -109,6 +111,9 @@ a {
 .card-container {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .card {
