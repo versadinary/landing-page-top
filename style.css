@@ -19,6 +19,7 @@ body {
     justify-content: space-around;
     background-color: #1f2937;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -30,6 +31,7 @@ body {
 .links,
 .logo {
     margin-top: 8px;
+    text-align: center;
 }
 
 ul {
@@ -49,6 +51,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px;
     padding-top: 100px;
     padding-bottom: 100px;
     gap: 50px;
@@ -77,6 +80,7 @@ a {
     height: 200px;
     background-color: gray;
     padding: 15px;
+    flex-shrink: 0;
 }
 
 .button-container {
