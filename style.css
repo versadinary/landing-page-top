@@ -65,8 +65,11 @@ img {
 .c-one-left {
     display: flex;
     flex-direction: column;
-    width: 450px;
+    /* width: 450px; */
+    flex-basis: 450px;
     padding: 15px;
+    flex-shrink: 1;
+    flex-wrap: 1;
 }
 
 .large-text {
@@ -188,6 +191,7 @@ img {
     /* gap: 8px; */
     justify-content: space-around;
     align-items: center;
+    /* padding: 10px; */
 }
 
 .text-container {
@@ -223,4 +227,32 @@ img {
     color: #e5e7eb;
     font-weight: 300;
     font-size: 16px;
+}
+
+@media screen and (max-width: 720px) {
+    .content-one {
+        flex-direction: column;
+        gap: 0px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: 1;
+        flex-shrink: 1;
+        padding: auto;
+    }
+
+    .c-one-left {
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: auto;
+    }
+
+    .large-text,
+    .small-text {
+        text-align: center;
+    }
+
+    .blue-card-container {
+        padding: 10px;
+    }
 }
